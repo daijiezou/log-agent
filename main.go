@@ -38,7 +38,7 @@ func main() {
 		logrus.Error("Get OutboundIP failed,err:%v", err)
 		return
 	}
-	fmt.Println("测试github1")
+	fmt.Println("测试github2")
 	var confObj = new(Config)
 	// 从ini中读取静态的配置文件
 	err = ini.MapTo(confObj, "./conf/config.ini")
